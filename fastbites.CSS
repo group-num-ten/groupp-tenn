@@ -1,0 +1,107 @@
+.body { 
+    font-family: 'Arial', sans-serif; 
+    background-color: #f8f9fa; 
+    color: #333; 
+    margin-top: 56px; 
+} 
+.navbar { 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ff7f7f; 
+} 
+.navbar-brand { 
+    font-size: 1.8rem; 
+    font-weight: bold; 
+} 
+.nav-link { 
+    font-size: 1.1rem; 
+    transition: color 0.3s; 
+} 
+.nav-link:hover { 
+    color: #ffcc00 !important; 
+} 
+.hero { 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
+} 
+.hero .container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+.hero h1 { 
+    font-size: 3.5rem; 
+    font-weight: bold; 
+} 
+.hero p { 
+    font-size: 1.5rem; 
+} 
+.btn-warning { 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+} 
+#menu h2 { 
+    font-size: 2.5rem; 
+    margin-bottom: 30px; 
+    font-weight: bold; 
+} 
+#menu h5 { 
+    font-size: 1.5rem; 
+    margin-bottom: 30px; 
+    font-weight: bold; 
+} 
+.card { 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    border: none; 
+    border-radius: 15px; 
+} 
+.card:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+} 
+.card-img-top { 
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px; 
+    height: 300px; 
+    object-fit: cover; 
+} 
+.card-body { 
+    text-align: center; 
+} 
+.text-danger { 
+    font-size: 1.3rem; 
+    font-weight: bold; 
+} 
+#locations { 
+    background-color: #ffffff; 
+    padding: 50px 0; 
+    text-align: center; 
+} 
+#promotions { 
+    background: #ffcc00; 
+    padding: 50px 0; 
+    text-align: center; 
+} 
+#contact { 
+    background-color: #fff; 
+    padding: 50px 0; 
+} 
+#contact h2 { 
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+    font-weight: bold; 
+} 
+.btn-danger { 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+} 
+@media (max-width: 768px) { 
+    .hero h1 { 
+        font-size: 2.5rem; 
+    } 
+ 
+    .hero p { 
+        font-size: 1.2rem; 
+    } 
+}
